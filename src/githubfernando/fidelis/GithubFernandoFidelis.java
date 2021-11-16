@@ -15,11 +15,19 @@ public class GithubFernandoFidelis {
      * @param args the command line arguments
      */ 
     public static void main(String[] args) {
-     
+ /*   
  Scanner leia = new Scanner(System.in);
- String.out.println("Entre seu nome");
+ String.out.println("Entre com seu nome");
  String nome = leia.nextLine();
  System.out.println(nome+"bem vindo ao GitHub");
+ */ 
+ String nome = JOptionPane.showInputDialog(null,"digite seu nome: ");
+ JOptionPane.showMessageDialog
+         (null, nome+"seja bem vindo ao GitHub");
+ System.exit(0);
+ 
+  
+
  
         
     }
